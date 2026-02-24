@@ -23,10 +23,17 @@ This work is documented here as a summer internship/research project (NASA AMuBA
 ## Quick Start (MATLAB)
 
 1. Open MATLAB in the repo root.
-2. Start with either `skin_data/normal_skin_test_data_filtered/` or `skin_data/parallel_skin_test_data_filtered/`.
-3. Run the folder-level import script (`import_datan.m` or `import_datap.m`) to load the filtered skin datasets.
-4. Run `fit.m` in the same folder to reproduce the folder's fitting workflow.
-5. For shear datasets, use `shear_data/import_shear_data.m` and/or the per-run `import*.m` scripts in `shear_data/dull/*` and `shear_data/shiny/*`.
+2. For airfoil skin tests, change into either `skin_data/normal_skin_test_data_filtered/` or `skin_data/parallel_skin_test_data_filtered/`.
+3. Run the folder-level import script (`import_datan.m` or `import_datap.m`) to load all filtered datasets and generate comparison plots.
+4. Run `fit.m` in the same folder for the symbolic curve-fit workflow built on the imported `x*` tables and the `*_fit` coefficients.
+5. For shear tests, change into `shear_data/` and run `import_shear_data.m` (it calls the subfolder import scripts for dull/shiny replicates and plots fitted curves).
+6. If relative path errors occur, make sure MATLAB's current folder matches the script's folder before running `run(...)`-based import scripts.
+
+## Dependencies / Compatibility Notes
+
+- `fit.m` scripts use Symbolic Math (`syms`, `equationsToMatrix`).
+- `parallel_skin_test_data_filtered/import_datap.m` uses `NonLinearModel.fit` (Statistics and Machine Learning Toolbox in older MATLAB versions).
+- Some import scripts were auto-generated and include Windows path comments; the active `filename` paths are relative and work if run from the correct folder.
 
 ## Suggested README Upgrades (Later)
 
