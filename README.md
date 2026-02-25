@@ -4,9 +4,7 @@ MATLAB scripts and experimental datasets for multimaterial testing, including ai
 
 ## Context
 
-This dataset is associated with the NASA AMuBA (Aeroservoelastic Multifidelity Design of Biomimetic Aircraft) project work described in the resume, completed as undergraduate research in UMD's Aerospace Composites Research Laboratory (summer 2019), not a standard homework project.
-
-This work is documented here as a summer internship/research project (NASA AMuBA with IAI), not a UMD course assignment.
+This dataset is associated with the NASA AMuBA (Aeroservoelastic Multifidelity Design of Biomimetic Aircraft) project work completed as undergraduate research in UMD's Aerospace Composites Research Laboratory (Summer 2019)
 
 ## Contents
 
