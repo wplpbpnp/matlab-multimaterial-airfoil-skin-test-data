@@ -17,7 +17,7 @@ This work is documented here as a summer internship/research project (NASA AMuBA
 
 - `skin_data/README.txt` contains original notes about filename suffixes and MATLAB import usage.
 - `skin` in this dataset refers to the outer skin of an airfoil, not biomaterials/biological tissue.
-- This repo is staged as a portfolio-grade example because it includes both code and real datasets.
+- This repository combines import scripts, fitting scripts, and preserved test data for reproducible analysis workflows.
 - Instrument export metadata files (`.log`, `.mpp`, `.mps`, `.prm`) are currently preserved for completeness.
 
 ## Quick Start (MATLAB)
@@ -35,7 +35,7 @@ This work is documented here as a summer internship/research project (NASA AMuBA
 - `parallel_skin_test_data_filtered/import_datap.m` uses `NonLinearModel.fit` (Statistics and Machine Learning Toolbox in older MATLAB versions).
 - Some import scripts were auto-generated and include Windows path comments; the active `filename` paths are relative and work if run from the correct folder.
 
-## Suggested README Upgrades (Later)
+## Data Notes
 
-- Add 1-2 plots showing strain range / fit behavior for the multimaterial skin demonstrators
-- Add a short note describing the test fixture and measurement outputs (`filtered.dat` vs `specimen.dat`)
+- `filtered.dat` files are the primary processed inputs used by the plotting/fitting scripts.
+- `specimen.dat` and associated instrument metadata files preserve the original test exports and run configuration context.
