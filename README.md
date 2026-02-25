@@ -37,3 +37,20 @@ This dataset is associated with the NASA AMuBA (Aeroservoelastic Multifidelity D
 
 - `filtered.dat` files are the primary processed inputs used by the plotting/fitting scripts.
 - `specimen.dat` and associated instrument metadata files preserve the original test exports and run configuration context.
+
+## AMuBA Figures and Photos
+
+- Plot figures: `assets/amuba_figures/`
+- Photos and test imagery: `assets/amuba_photos/`
+
+### Selected Figures
+
+![Normal shear data](assets/amuba_figures/normal_shear_data.png)
+
+![Parallel shear data](assets/amuba_figures/parallel_shear_data.png)
+
+### Selected Photos / Test Images
+
+![Top carbon actuation](assets/amuba_photos/top_carbon_actuation.jpeg)
+
+![Relaxed test skin](assets/amuba_photos/relaxed_test_skin.png)
