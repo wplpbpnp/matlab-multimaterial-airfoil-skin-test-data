@@ -2,6 +2,8 @@
 
 MATLAB scripts and experimental datasets for multimaterial testing, including airfoil skin shear/skin test data.
 
+Scroll down for figure, and images of the experimental set up
+
 ## Context
 
 This dataset is associated with the NASA AMuBA (Aeroservoelastic Multifidelity Design of Biomimetic Aircraft) project work completed as undergraduate research in UMD's Aerospace Composites Research Laboratory (Summer 2019)
