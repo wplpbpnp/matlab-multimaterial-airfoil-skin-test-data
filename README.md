@@ -42,15 +42,32 @@ This dataset is associated with the NASA AMuBA (Aeroservoelastic Multifidelity D
 
 - Plot figures: `assets/amuba_figures/`
 - Photos and test imagery: `assets/amuba_photos/`
+- Analysis preview: `assets/amuba_airfoil_skin_force_displacement_preview.svg`
 
-### Selected Figures
+### Analysis Preview
+
+![AMuBA airfoil skin force-displacement preview](assets/amuba_airfoil_skin_force_displacement_preview.svg)
+
+### Figures
 
 ![Normal shear data](assets/amuba_figures/normal_shear_data.png)
 
+![Normal test data](assets/amuba_figures/normal_test_data.png)
+
 ![Parallel shear data](assets/amuba_figures/parallel_shear_data.png)
 
-### Selected Photos / Test Images
+![Parallel test data](assets/amuba_figures/parallel_test_data.png)
+
+### Photos / Test Images
+
+![50 lb scaled deflection](assets/amuba_photos/50lb_scaled_deflection.PNG)
+
+![New skin close-up](assets/amuba_photos/new_skin_close.jpg)
+
+![Off full up](assets/amuba_photos/off_full_up.png)
 
 ![Top carbon actuation](assets/amuba_photos/top_carbon_actuation.jpeg)
 
 ![Relaxed test skin](assets/amuba_photos/relaxed_test_skin.png)
+
+![Shear y](assets/amuba_photos/shear_y.png)
