@@ -2,7 +2,7 @@
 
 MATLAB scripts and experimental datasets for multimaterial testing, including airfoil skin shear/skin test data.
 
-Scroll down for figure, and images of the experimental set up
+Scroll down for figures and images of the experimental set up
 
 ## Context
 
